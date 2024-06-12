@@ -2,7 +2,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import "./index.css";
-import "./../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import LoginPage from "./pages/react/LoginPage";
@@ -67,7 +67,6 @@ const router = createBrowserRouter([
     path: "/updatehazard",
     element: <UpdateHazard />,
   },
-
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+
 import React from 'react'
 import "./../style/UpdateLPDetails.css";
 import Button from 'react-bootstrap/Button';
@@ -77,6 +78,7 @@ function UpdateLPDetails() {
     </div>
   </div>
   )
+
 }
 
-export default UpdateLPDetails
+export default UpdateLPDetails;

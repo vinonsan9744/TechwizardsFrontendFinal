@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
+import React from "react";
 import "./../style/LoginPage.css";
 
 function LoginPage() {
+
   return (
     <>
 
@@ -12,6 +13,7 @@ function LoginPage() {
 
     </>
   )
+
 }
 
-export default LoginPage
+export default LoginPage;

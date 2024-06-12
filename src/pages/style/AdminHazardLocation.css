@@ -20,7 +20,6 @@
 }
 
 .right {
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,20 +41,6 @@
 
 .text-custom-light {
   color: #e4f2e7;
-
-  position: absolute; 
-  text-align: left;
- 
- 
- 
-}
-
-.title-text {
-  font-size: 3rem;
-  text-align: left;
-  margin-top: 3%;
-  
-
   position: absolute;
   text-align: left;
 }
@@ -64,7 +49,6 @@
   font-size: 3.5rem;
   text-align: left;
   margin-top: 3%;
-
 }
 
 @media (max-width: 1500px) {
@@ -113,27 +97,27 @@
 
 /* header line end  */
 
-
 .radio-buttons-container {
   align-items: center;
   text-align: center;
-  margin-top: 30%;
-  padding: 10%;
+  margin-top: 10%;
+  padding: 5%;
 }
 
 .form-check {
   display: flex;
   align-items: center;
-  margin-bottom: 2%;
-  margin-top: 5%;
+  margin-bottom: 0%;
+  margin-top: 0%;
 }
 
 .custom-radio-label {
   color: #387373;
   font-weight: bold;
   font-size: 2rem;
-  margin-left: 15%; /* Adjust the margin as needed */
-  margin-right: 2%
+  margin-left: 20%; /* Adjust the margin as needed */
+  margin-right: 2%;
+  margin-bottom: 1%;
 }
 
 .custom-radio {
@@ -159,31 +143,15 @@
 }
 
 .button {
-  
-  margin-left: 15%;
-  margin-right: 0%;
-  align-items:start ;
+  margin-left: 25%;
+  margin-right: 30%;
+  align-items: start;
   background-color: #387373;
-  width: 70%;
+  width: 40%;
   margin-bottom: 10%;
   font-weight: bolder;
   font-size: 2rem;
-  
 }
-.button1{
-  margin-left: 0%;
-  margin-right: 50%;
-  align-items:start ;
-  background-color: #387373;
-  width: 70%;
-  margin-bottom: 10%;
-  font-weight: bolder;
-  font-size: 2rem;
-  
-}
-
-
-
 .title {
   font-size: 3rem;
   color: #daf1f1;
@@ -192,7 +160,7 @@
 }
 
 .line {
-  width: 90%;
+  width: 70%;
   border: 3px solid hsl(180, 45%, 90%);
   margin-bottom: 3%;
 }
@@ -206,21 +174,9 @@
   color: #387373;
   border-radius: 10px;
   font-weight: bolder;
-  width: 100%;
-}
-
-.boxx {
-  background-color: #5a0811;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5rem;
-  padding: 2%;
-  color: #daf1f1;
-  width: 40%;
-  margin-bottom: 3%;
-  border-radius: 10px;
   width: 75%;
-  font-weight: bolder;
+  margin-top: 1%;
+  margin-bottom: 10%;
 }
 
 .box2 {
@@ -232,20 +188,19 @@
   color: #daf1f1;
   width: 65%;
   border-radius: 10px;
-
-  font-weight: bolder;
-}
-
-.new {
-  margin-top: 0%;
-  font-size: 2rem;
-  color: #daf1f1;
+  margin-bottom: 4%;
   font-weight: bolder;
 }
 
 .possible {
   font-size: 2rem;
-  margin-top: 1%;
+  margin-top: 4%;
   color: #daf1f1;
   font-weight: bolder;
+}
+
+#dropdown-basic {
+  width: 50%;
+  background-color: #387373;
+  color: white;
 }

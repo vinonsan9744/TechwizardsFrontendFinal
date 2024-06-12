@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+
 import React from 'react';
 
 function AdminHomePage () {
@@ -27,6 +28,7 @@ function AdminHomePage () {
   )
 
   
+
 }
 
-export default AdminHomePage 
+export default AdminHomePage;
