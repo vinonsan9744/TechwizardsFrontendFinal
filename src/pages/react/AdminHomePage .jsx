@@ -1,15 +1,10 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React from "react";
+import "./../style/AdminHomePage .css";
+import Button from "react-bootstrap/Button";
 
-function AdminHomePage () {
-  return (
-
-    <div>
-        <p> AdminHomePage</p> 
-    </div>
-  )
-
-  
+function AdminHomePage() {
+  return <></>;
 }
 
-export default AdminHomePage 
+export default AdminHomePage;
