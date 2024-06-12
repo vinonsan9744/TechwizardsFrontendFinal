@@ -1,16 +1,8 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React from "react";
 
-function HomePage () {
-  return (
-    <>
-
-
-        
-
-
-    </>
-  )
+function HomePage() {
+  return <></>;
 }
 
-export default HomePage 
+export default HomePage;

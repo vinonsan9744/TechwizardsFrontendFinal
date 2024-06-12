@@ -1,12 +1,11 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React from "react";
+import "./../style/UpdateLPDetails.css";
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
 
 function UpdateLPDetails() {
-  return (
-    <div>
-    <p>UpdateLPDetails</p>
-    </div>
-  )
+  return <></>;
 }
 
-export default UpdateLPDetails
+export default UpdateLPDetails;
