@@ -17,7 +17,7 @@ function UpdateLPDetails() {
                      <div className="custom-shape position-absolute top-0 start-0 translate-middle-y">
                         <div className="position-absolute top-50 start-0 translate-middle-y">
                            <h2 className=" text-custom-light title-text font-semibold  ">
-                            <span> Locomotive Pilot Details </span>
+                            <div> Locomotive Pilot Details</div>
                            </h2>
                         </div>
                      </div>
