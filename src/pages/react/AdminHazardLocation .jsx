@@ -1,10 +1,10 @@
 
-import React from "react";
+
 import "./../style/AdminHazardLocation.css";
 import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
+
 import Dropdown from "react-bootstrap/Dropdown";
-import DropdownButton from "react-bootstrap/DropdownButton";
+
 
 function AdminHazardLocation() {
   return (
