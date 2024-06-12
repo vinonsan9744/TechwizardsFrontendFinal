@@ -20,6 +20,7 @@
 }
 
 .right {
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,6 +42,20 @@
 
 .text-custom-light {
   color: #e4f2e7;
+
+  position: absolute; 
+  text-align: left;
+ 
+ 
+ 
+}
+
+.title-text {
+  font-size: 3rem;
+  text-align: left;
+  margin-top: 3%;
+  
+
   position: absolute;
   text-align: left;
 }
@@ -49,6 +64,7 @@
   font-size: 3.5rem;
   text-align: left;
   margin-top: 3%;
+
 }
 
 @media (max-width: 1500px) {
@@ -96,6 +112,77 @@
 }
 
 /* header line end  */
+
+
+.radio-buttons-container {
+  align-items: center;
+  text-align: center;
+  margin-top: 30%;
+  padding: 10%;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+
+.custom-radio-label {
+  color: #387373;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 15%; /* Adjust the margin as needed */
+  margin-right: 2%
+}
+
+.custom-radio {
+  position: absolute;
+  opacity: 0;
+}
+
+.custom-radio + .custom-radio-label::before {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  border: 4px solid #387373;
+  border-radius: 50%;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.custom-radio:checked + .custom-radio-label::before {
+  background-color: #387373;
+  background-image: radial-gradient(circle, white 50%, transparent 50%);
+}
+
+.button {
+  
+  margin-left: 15%;
+  margin-right: 0%;
+  align-items:start ;
+  background-color: #387373;
+  width: 70%;
+  margin-bottom: 10%;
+  font-weight: bolder;
+  font-size: 2rem;
+  
+}
+.button1{
+  margin-left: 0%;
+  margin-right: 50%;
+  align-items:start ;
+  background-color: #387373;
+  width: 70%;
+  margin-bottom: 10%;
+  font-weight: bolder;
+  font-size: 2rem;
+  
+}
+
+
 
 .title {
   font-size: 3rem;

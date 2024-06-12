@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./../style/AdminHazardLocation.css";
 import Button from "react-bootstrap/Button";
@@ -128,3 +129,4 @@ function AdminHazardLocation() {
 }
 
 export default AdminHazardLocation;
+

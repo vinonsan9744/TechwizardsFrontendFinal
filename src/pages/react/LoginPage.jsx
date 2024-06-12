@@ -3,7 +3,17 @@ import React from "react";
 import "./../style/LoginPage.css";
 
 function LoginPage() {
-  return <></>;
+
+  return (
+    <>
+
+
+
+
+
+    </>
+  )
+
 }
 
 export default LoginPage;
