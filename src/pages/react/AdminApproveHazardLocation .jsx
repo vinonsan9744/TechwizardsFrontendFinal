@@ -10,121 +10,98 @@ import Button from 'react-bootstrap/Button';
 function AdminApproveHazardLocation() {
   return (
     <>
+{/* this is the main dision of screen  */}
+<div className='container-flex vh-100'>
 
-<div className="container-flex text-center" style={{ height: '100vh' }}>
+<div className='row vh-100'>
+{/* *************************************this is the left side box start********************************************************** */}
+  <div className="main-left col-sm-12 col-md-6 col-lg-6 col-xl-6 ">  
 
-<div className="row" style={{ height: '100%' }}>
-
-<div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 left d-flex flex-column align-items-center justify-content-center">
-    
-
-    <div className='container'>
-
-      <div className='row'>
-
-          <div className='col-sm-12 col-md-12 col-lg-6'> 
-
-              <div className="custom-shape position-absolute top-0 start-0 translate-middle-y">
-                 <div className="position-absolute top-50 start-0 translate-middle-y">
-                    <h2 className=" text-custom-light title-text font-semibold  ">
-                         Update Hazard 
-                    </h2>
-                 </div>
-              </div>
-    
-   
-          </div>
-
-          <div className='col-12'> 
-          <div className="radio-buttons-container ">
-          <div className="form-check">
-             <input className="form-check-input custom-radio" type="radio" name="hazardOptions" id="elephant" value="elephant" />
-             <label className="form-check-label custom-radio-label" htmlFor="elephant">
-              Elephant
-             </label>
-          </div>
-
-            <div className="form-check">
-              <input className="form-check-input custom-radio" type="radio" name="hazardOptions" id="bull" value="bull" />
-              <label className="form-check-label custom-radio-label" htmlFor="bull">
-               Bull
-              </label>
-            </div>
-
-            <div className="form-check">
-              <input className="form-check-input custom-radio" type="radio" name="hazardOptions" id="landslide" value="landslide" />
-              <label className="form-check-label custom-radio-label" htmlFor="landslide">
-                Landslide
-               </label>
-            </div>
-      
-      </div>
-          </div>
-
-
-
-      </div>
-
+    <div className='heading-box container-flex w-100 vh-30'>
+     <h1 className='title'>Hazard Location</h1>
     </div>
 
-  <div className='container mt-5 d-flex justify-content-start'>
-  <Button className="button" variant="primary">Update</Button>
-  <Button className="button1" variant="primary">Home</Button>
+    <div className='radio-box container-flex   vh-30 '>
+          
+    </div>
+
+    <div className='button-box1 container-flex '>
+      <Button className='update-button'>Update</Button>
+    </div>
+
+    <div className='button-box2 container-flex '>
+      <Button className='cancel-button'>Cancel</Button>
+    </div>
+  
+  
+  </div>{/* this is the left side box end */}
+
+{/* ***********************************************this is the right side box start************************************************ */}
+  <div className="main-right col-sm-12 col-md-6 col-lg-6 col-xl-6 "> 
+
+  <div className='right-heading-box container-flex w-100 vh-30'> 
+      <h1 className='right-title'>Hazard Location</h1>
   </div>
-   
-  
-  
 
-   
-    
- 
-   
-   </div>
+  <div className='right-location-box container-flex  vh-30'>
+  <h1 className='right-location'>Anuradhapura New Town</h1>
+  </div>
 
-  <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 right d-flex flex-column align-items-center justify-content-center">
-    
-            
-          <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 right d-flex flex-column align-items-center justify-content-center">
-            <h1 className="title">Hazard Location</h1>
-            <hr className="line" />
+  <div className='right-new-hazard-heading-main-box container-flex  vh-30'>
+      
+      <div className='row'>
 
-            <div className="box container">
-              <span>Anuradapura new-town</span>
-            </div>
-
-            <div className="new">
-              <p>New Hazard</p>
-            </div>
-
-            <div className="boxx container">
-              <span>Elephant</span>
-            </div>
-
-            <div className="possible">
-              <p>Possible Hazards</p>
-            </div>
-
-            <div className="box2 col-md-6 container">
-              <span>Elephant</span>
-            </div>
-
-            <div className="box2 col-md-6 container">
-              <span>Bull</span>
-            </div>
-
-            <div className="box2 col-md-6 container">
-              <span>Land Slide</span>
-            </div>
+          <div className='right-new-hazard-heading-box container-flex  vh-30'>
+            <h3 className='right-new-hazard-heading'>New Hazard</h3>
           </div>
+
+          <div className='right-new-hazard-box container-flex  vh-30'>
+            <h3 className='right-new-hazard-heading'>Elephant</h3>
+          </div>
+
+      </div>
+    
+  </div>
+
+  <div className='right-hazard-heading-main-box container-flex  vh-30'>
+      
+      <div className='row'>
+
+        <div className='right-hazard-title-box container-flex  '>
+        <h4 className='right-new-hazard-heading'>Possible Hazard</h4>
+        </div>
+          
+        <div className='right-hazard-box container-flex  '>
+            <h3 className='right-hazard'>Elephant</h3>
+        </div>
+
+        <div className='right-hazard-box container-flex '>
+            <h3 className='right-hazard'>Elephant</h3>
+        </div>
+
+        <div className='right-hazard-box container-flex '>
+            <h3 className='right-hazard'>Elephant</h3>
+        </div>
+
+        <div className='right-hazard-box container-flex '>
+            <h3 className='right-hazard'>Elephant</h3>
+        </div>
+
+      </div>
+    
+  </div>
+
   
 
+
+
+
+  </div>{/* this is the right side box end*/}
+           
+{/* ********************************************************************************************** */}
   </div>
 
 </div>
-
-</div>
-
-
 
 
     </>
