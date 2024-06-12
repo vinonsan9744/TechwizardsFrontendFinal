@@ -1,0 +1,99 @@
+.container-flex {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #387373;
+  }
+  
+  .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #daf1f1;
+  }
+  .custom-shape {
+    background-color: #387373;
+    height: 70%;
+    width: 80%;
+    max-width: 500px; /* Adjust max-width as needed for responsiveness */
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+  
+  .text-custom-light {
+    color: #e4f2e7;
+    position: absolute; 
+    text-align: left;
+   
+   
+   
+   
+  }
+  
+  .title-text {
+    text-align: left;
+    margin-top: 3%;
+    font-size: 3rem;
+    
+  }
+
+  @media (max-width: 1500px) {
+    .custom-shape {
+      height: 24rem;
+      max-width: 600px; /* Adjust max-width for smaller screens */
+    }
+  
+    .text-5xl {
+      font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .custom-shape {
+      height: 20rem;
+      max-width: 400px; /* Adjust max-width for smaller screens */
+    }
+  
+    .text-5xl {
+      font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .custom-shape {
+      height: 15rem;
+      max-width: 300px; /* Adjust max-width for tablets and smaller screens */
+    }
+  
+    .text-5xl {
+      font-size: 2rem; /* Adjust font size for tablets and smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .custom-shape {
+      height: 12rem;
+      max-width: 250px; /* Adjust max-width for mobile devices */
+    }
+  
+    .text-5xl {
+      font-size: 5rem; /* Adjust font size for mobile devices */
+    }
+  }

@@ -1,12 +1,18 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React from 'react';
+import "./../style/AdminHazardLocation .css";
 
-function AdminHazardLocation () {
+
+function AdminHazardLocation() {
   return (
-    <div>
-        <p> AdminHazardLocation</p> 
-    </div>
+    <>
+
+
+
+
+
+    </>
   )
 }
 
-export default AdminHazardLocation 
+export default AdminHazardLocation
