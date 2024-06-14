@@ -1,99 +1,88 @@
-.container-flex {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .row {
-    width: 100%;
-    height: 100%;
-    display: flex;
-  }
-  
-  .left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #387373;
-  }
-  
-  .right{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #daf1f1;
-  }
-  .custom-shape {
-    background-color: #387373;
-    height: 70%;
-    width: 80%;
-    max-width: 500px; /* Adjust max-width as needed for responsiveness */
-    border-top-right-radius: 9999px;
-    border-bottom-right-radius: 9999px;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-  }
-  
-  .text-custom-light {
-    color: #e4f2e7;
-    position: absolute; 
-    text-align: left;
-   
-   
-   
-   
-  }
-  
-  .title-text {
-    text-align: left;
-    margin-top: 3%;
-    font-size: 3rem;
-    
-  }
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/* left side design start **********************************************************************  */
 
-  @media (max-width: 1500px) {
-    .custom-shape {
-      height: 24rem;
-      max-width: 600px; /* Adjust max-width for smaller screens */
-    }
+.main-left{
+  background-color: #787a7c;
+  height: 100%;
+}
+
+.heading-box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(199, 207, 207);
+  height: 20%;
+  width: 100%;
+  border-bottom-right-radius: 100px;
+  margin-left: -5%;
   
-    .text-5xl {
-      font-size: 2.5rem; /* Adjust font size for smaller screens */
-    }
-  }
   
-  @media (max-width: 1200px) {
-    .custom-shape {
-      height: 20rem;
-      max-width: 400px; /* Adjust max-width for smaller screens */
-    }
+}
+.title{
+  font-size: 3rem;
+  text-align: left;
+  font-weight: bolder;
+  margin-left: 5%;
+ 
+}
+
+.dropdown-box {
+  background-color: rgb(207, 215, 221);
+  height: 50%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
   
-    .text-5xl {
-      font-size: 2.5rem; /* Adjust font size for smaller screens */
-    }
-  }
+}
+
+.left-select-route {
+  background-color: rgb(92, 179, 246);
+  height: 10%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
   
-  @media (max-width: 992px) {
-    .custom-shape {
-      height: 15rem;
-      max-width: 300px; /* Adjust max-width for tablets and smaller screens */
-    }
+}
+
+.left-start-point {
+  background-color: rgb(92, 179, 246);
+  height: 10%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
   
-    .text-5xl {
-      font-size: 2rem; /* Adjust font size for tablets and smaller screens */
-    }
-  }
+}
+
+.left-end-point {
+  background-color: rgb(92, 179, 246);
+  height: 10%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
   
-  @media (max-width: 576px) {
-    .custom-shape {
-      height: 12rem;
-      max-width: 250px; /* Adjust max-width for mobile devices */
-    }
-  
-    .text-5xl {
-      font-size: 5rem; /* Adjust font size for mobile devices */
-    }
-  }
+}
+.button-box {
+  background-color: rgb(255, 255, 255);
+  height: 10%;
+  width: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+/* right side design start ************************************************************** */
+.main-right{
+  background-color: #387373;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
