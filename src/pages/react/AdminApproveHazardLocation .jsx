@@ -1,11 +1,6 @@
-
-/* eslint-disable no-unused-vars */
-import React from 'react';
+import React from "react";
 import "./../style/AdminApproveHazardLocation .css";
-import Button from 'react-bootstrap/Button';
-
-
-
+import Button from "react-bootstrap/Button";
 
 function AdminApproveHazardLocation() {
   return (
@@ -106,7 +101,7 @@ function AdminApproveHazardLocation() {
 
     </>
   )
+
 }
 
-export default AdminApproveHazardLocation
-
+export default AdminApproveHazardLocation;
