@@ -1,127 +1,48 @@
-
-
+import React from "react";
 import "./../style/AdminHazardLocation.css";
-import Button from "react-bootstrap/Button";
-
+import Form from "react-bootstrap/Form";
 import Dropdown from "react-bootstrap/Dropdown";
-
-
+import DropdownButton from "react-bootstrap/DropdownButton";
+import Button from "react-bootstrap/Button";
 function AdminHazardLocation() {
   return (
     <>
-      <div className="container-flex text-center" style={{ height: "100vh" }}>
-        <div className="row" style={{ height: "100%" }}>
-          <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 left d-flex flex-column align-items-center justify-content-center">
-            <div className="container">
+      {/* ..........this is the main division of screen.......... */}
+      <div className="container-flex vh-100">
+        <div className="row vh-100">
+          {/* ..........this is the left side box start.......... */}
+          <div className="main-left col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div className="header-box container-flex w-100 vh-30">
+              <div className="title">header</div>
+            </div>
+
+            <div className="dropdown-box container-flex vh-30"></div>
+
+            <div className="radio-button-box container-flex vh-30"></div>
+
+            <div className="admin-hazard-location-button-box container-flex"></div>
+          </div>
+          {/* ..........left side box ended.......... */}
+
+          {/* ..........this is the right side box.......... */}
+          <div className="main-right col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div className="right-header-box container-flex vh-30"></div>
+
+            <div className="right-location-kekirawa-box container-flex vh-30"></div>
+
+            <div className="right-possible-hazards-main-box container-flex vh-30">
               <div className="row">
-                <div className="col-sm-12 col-md-12 col-lg-6">
-                  <div className="custom-shape position-absolute top-0 start-0 translate-middle-y">
-                    <div className="position-absolute top-50 start-0 translate-middle-y">
-                      <h2 className=" text-custom-light title-text font-semibold  ">
-                        Update Hazard
-                      </h2>
-                    </div>
-                  </div>
+                <div className="right-possible-hazards-title-box container-flex"></div>
+                <div className="right-possible-hazards-box1 container-flex">
+                  estsrgd
                 </div>
-
-                <Dropdown>
-                  <Dropdown.Toggle id="dropdown-basic">
-                    Dropdown Button
-                  </Dropdown.Toggle>
-
-                  <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">
-                      Another action
-                    </Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">
-                      Something else
-                    </Dropdown.Item>
-                  </Dropdown.Menu>
-                </Dropdown>
-
-                <div className="col-12">
-                  <div className="radio-buttons-container ">
-                    <div className="form-check">
-                      <input
-                        className="form-check-input custom-radio"
-                        type="radio"
-                        name="hazardOptions"
-                        id="elephant"
-                        value="elephant"
-                      />
-                      <label
-                        className="form-check-label custom-radio-label"
-                        htmlFor="elephant"
-                      >
-                        Elephant
-                      </label>
-                    </div>
-
-                    <div className="form-check">
-                      <input
-                        className="form-check-input custom-radio"
-                        type="radio"
-                        name="hazardOptions"
-                        id="bull"
-                        value="bull"
-                      />
-                      <label
-                        className="form-check-label custom-radio-label"
-                        htmlFor="bull"
-                      >
-                        Bull
-                      </label>
-                    </div>
-
-                    <div className="form-check">
-                      <input
-                        className="form-check-input custom-radio"
-                        type="radio"
-                        name="hazardOptions"
-                        id="landslide"
-                        value="landslide"
-                      />
-                      <label
-                        className="form-check-label custom-radio-label"
-                        htmlFor="landslide"
-                      >
-                        Landslide
-                      </label>
-                    </div>
-                  </div>
+                <div className="right-possible-hazards-box2 container-flex">
+                  rtrstr
                 </div>
               </div>
             </div>
-
-            <div className="container mt-5 d-flex justify-content-start">
-              <Button className="button">Update</Button>
-            </div>
           </div>
-          <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 right d-flex flex-column align-items-center justify-content-center">
-            <h1 className="title">Hazard Location</h1>
-            <hr className="line" />
-
-            <div className="box container">
-              <span>Kekirawa</span>
-            </div>
-
-            <div className="possible">
-              <p>Possible Hazards</p>
-            </div>
-
-            <div className="box2 col-md-6 container">
-              <span>Elephant</span>
-            </div>
-
-            <div className="box2 col-md-6 container">
-              <span>Bull</span>
-            </div>
-
-            <div className="box2 col-md-6 container">
-              <span>Land Slide</span>
-            </div>
-          </div>
+          {/* ..........right side box ended.......... */}
         </div>
       </div>
     </>
@@ -129,4 +50,3 @@ function AdminHazardLocation() {
 }
 
 export default AdminHazardLocation;
-

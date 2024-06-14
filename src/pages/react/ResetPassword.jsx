@@ -1,12 +1,9 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React from "react";
+import "./../style/ResetPassword.css";
 
 function ResetPassword() {
-  return (
-    <div>
-        <p>ResetPassword</p>
-    </div>
-  )
+  return <></>;
 }
 
-export default ResetPassword
+export default ResetPassword;
