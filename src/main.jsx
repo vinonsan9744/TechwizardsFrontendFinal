@@ -17,6 +17,7 @@ import AdminApproveHazardLocation from "./pages/react/AdminApproveHazardLocation
 import UpdateLPDetails from "./pages/react/UpdateLPDetails";
 import AdminHazardLocation from "./pages/react/AdminHazardLocation ";
 import UpdateHazard from "./pages/react/UpdateHazard";
+import Skelton from "./pages/react/Skelton";
 
 const router = createBrowserRouter([
   {
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
   {
     path: "/updatehazard",
     element: <UpdateHazard />,
+  },
+  {
+    path: "/skelton",
+    element: <Skelton />,
   },
 ]);
 
