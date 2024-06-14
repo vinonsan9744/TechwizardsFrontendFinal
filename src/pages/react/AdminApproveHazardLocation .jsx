@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import "./../style/AdminApproveHazardLocation .css";
 import Button from "react-bootstrap/Button";
@@ -11,7 +12,7 @@ function AdminApproveHazardLocation() {
           {/* *************************************this is the left side box start********************************************************** */}
           <div className="main-left col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
             <div className="heading-box container-flex w-100 vh-30">
-              <h1 className="title">Hazard Location</h1>
+              <h1 className="hazard-location-title">Hazard Location</h1>
             </div>
 
             <div className="radio-box container-flex   vh-30 "></div>
