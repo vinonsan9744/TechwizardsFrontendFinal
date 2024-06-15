@@ -1,9 +1,7 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import "./../style/AdminHazardLocation.css";
-import Form from "react-bootstrap/Form";
-import Dropdown from "react-bootstrap/Dropdown";
-import DropdownButton from "react-bootstrap/DropdownButton";
-import Button from "react-bootstrap/Button";
+
 function AdminHazardLocation() {
   return (
     <>

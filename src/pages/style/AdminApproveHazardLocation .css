@@ -14,6 +14,7 @@ html {
 .heading-box {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   background-color: #387373;
   height: 20%;
   width: 100%;
@@ -21,7 +22,7 @@ html {
   margin-left: -5%;
   margin-bottom: 5%;
 }
-.title {
+.hazard-location-title {
   font-size: 8vh;
   text-align: left;
   font-weight: bolder;
