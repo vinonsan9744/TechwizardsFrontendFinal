@@ -1,0 +1,204 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* ..........left side design start.......... */
+
+.ah-main-left {
+  background-color: white;
+  height: 100%;
+}
+
+.ah-header-box {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(199, 207, 207);
+  height: 20%;
+  width: 80%;
+  border-bottom-right-radius: 200px;
+  margin-left: -5%;
+ 
+}
+
+.ah-title {
+  font-size: 4rem;
+  text-align: left;
+  font-weight: bolder;
+  margin-left: 5%;
+  color: #e4f2e7;
+}
+
+.ah-newhazard-box {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+  background-color: #787a7c;
+}
+
+.ah-newhazard-heading-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 12%;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: blanchedalmond;
+}
+
+.ah-newhazard-content-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: blanchedalmond;
+}
+
+.ah-detail-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13%;
+    width: 94%;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: rgb(37, 91, 91);
+
+}
+
+.ah-description-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    width: 94%;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: rgb(37, 91, 91);
+}
+
+.ah-accept-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 94%;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: rgb(37, 91, 91);
+}
+
+.ah-hazard-btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 94%;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: aliceblue;
+}
+
+.ah-location-btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 94%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: aliceblue;
+}
+
+
+/* ..........right side design start.......... */
+.ah-main-right {
+  background-color: #787a7c;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.ah-right-header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 207, 207);
+    height: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+  }
+  .ah-right-hazard-approve-main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 207, 207);
+    height: 40%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  
+  .ah-right-location-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(99, 66, 69);
+    height: 20%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+  
+  .ah-right-hazards-box  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(99, 66, 69);
+    height: 20%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .ah-button-box1 {
+    background-color: rgb(199, 207, 207);
+    height: 10%;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+  }
+
+  .ah-button-box2 {
+    background-color: rgb(199, 207, 207);
+    height: 10%;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
