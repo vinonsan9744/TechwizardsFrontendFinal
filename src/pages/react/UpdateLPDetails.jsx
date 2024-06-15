@@ -12,6 +12,7 @@ function UpdateLPDetails() {
           <div className="main-left col-sm-12 col-md-6 col-lg-6 col-xl-6">
             <div className="LPheader-box container-flex w-100 vh-30">
               <div className="LPtitle">header</div>
+            </div>
 
             <div className="LPinput-details-main-box container-flex vh-30">
               <div className="row">

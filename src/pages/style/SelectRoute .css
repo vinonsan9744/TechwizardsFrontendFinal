@@ -1,11 +1,9 @@
-
 body,
 html {
   margin: 0;
   padding: 0;
   height: 100%;
 }
-
 
 /* ..........left side design start.......... */
 
@@ -14,7 +12,7 @@ html {
   height: 100%;
 }
 
-.select-route-heading-box {
+.select-route-header-box {
   display: flex;
   justify-content: flex-start;
   background-color: rgb(199, 207, 207);
@@ -22,41 +20,61 @@ html {
   width: 80%;
   border-bottom-right-radius: 200px;
   margin-left: -5%;
-  margin-bottom: 5%;
+  margin-bottom: 8%;
 }
 
-.select-route-input-box {
-  background-color: rgb(14, 81, 133);
-  height: 10%;
-  width: 80%;
+.select-route-title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bolder;
+  margin-left: 15%;
+  color: #e4f2e7;
+  margin-bottom: 5%;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
-/* .select-route-box {
+.select-route-dropdown-box {
   background-color: rgb(207, 215, 221);
-  height: 10%;
+  height: 50%;
   width: 80%;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5%;
+  margin-bottom: 8%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.route-button-box {
+.select-route-selection-box1 {
+  background-color: rgb(126, 113, 113);
+  height: 25%;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.select-route-selection-box2 {
+  background-color: rgb(126, 113, 113);
+  height: 25%;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.select-route-button-box {
   background-color: rgb(207, 215, 221);
   height: 10%;
   width: 30%;
   margin-left: 35%;
   margin-right: 35%;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 }
-*/
-*/
 
 /* ..........right side design start.......... */
 .main-right {

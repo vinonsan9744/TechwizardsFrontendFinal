@@ -12,7 +12,7 @@ html {
   height: 100%;
 }
 
-.heading-box {
+.update-hazard-header-box {
   display: flex;
   justify-content: flex-start;
   background-color: rgb(199, 207, 207);
@@ -20,10 +20,10 @@ html {
   width: 80%;
   border-bottom-right-radius: 200px;
   margin-left: -5%;
-  margin-bottom: 55%;
+  margin-bottom: 112%;
 }
 
-.title {
+.update-hazard-title {
   font-size: 3rem;
   text-align: center;
   font-weight: bolder;
@@ -33,13 +33,21 @@ html {
   justify-content: center;
 }
 
-.update-hazard-button-box {
+.update-hazard-button-box1 {
   background-color: rgb(207, 215, 221);
   height: 10%;
-  width: 30%;
-  margin-left: 35%;
-  margin-right: 35%;
-  margin-bottom: 15%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 11%;
+}
+
+.update-hazard-button-box2 {
+  background-color: rgb(207, 215, 221);
+  height: 10%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 /* ..........right side design start.......... */
@@ -70,7 +78,7 @@ html {
   background-color: rgb(225, 220, 220);
   height: 10%;
   width: 80%;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -82,8 +90,8 @@ html {
   background-color: rgb(225, 220, 220);
   height: 30%;
   width: 80%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   margin-left: 10%;
   margin-right: 10%;
 }

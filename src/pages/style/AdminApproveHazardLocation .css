@@ -1,16 +1,17 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   height: 100%;
 }
 /* left side design start **********************************************************************  */
 
-.main-left{
+.main-left {
   background-color: #ffffff;
   height: 100%;
 }
 
-.heading-box{
+.heading-box {
   display: flex;
   justify-content: flex-start;
   background-color: #387373;
@@ -19,15 +20,13 @@ body, html {
   border-bottom-right-radius: 100px;
   margin-left: -5%;
   margin-bottom: 5%;
-
 }
-.title{
+.title {
   font-size: 8vh;
   text-align: left;
   font-weight: bolder;
   margin-left: 5%;
-  color: #E4F2E7;
- 
+  color: #e4f2e7;
 }
 
 .radio-box {
@@ -38,122 +37,114 @@ body, html {
   align-items: center;
   margin-bottom: 5%;
   margin-left: 15%;
-  margin-Right: 15%;
-  
+  margin-right: 15%;
 }
 .button-box1 {
- 
   height: 10%;
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 5%;
   justify-content: center;
-
 }
 
-.update-button{
+.update-button {
   margin-left: 10%;
   margin-right: 10%;
   background-color: #387373;
-  color: #E4F2E7;
-  width:100%;
+  color: #e4f2e7;
+  width: 100%;
   font-weight: bolder;
   font-size: 4vh;
-
 }
 
-.update-button:hover{
-  
+.update-button:hover {
   background-color: #0a3030;
-  
 }
 
 .button-box2 {
-  
   height: 10%;
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
 }
-.cancel-button{
+.cancel-button {
   margin-left: 10%;
   margin-right: 10%;
   background-color: #387373;
-  color: #E4F2E7;
-  width:100%;
+  color: #e4f2e7;
+  width: 100%;
   font-weight: bolder;
   font-size: 4vh;
 }
 
-.cancel-button:hover{
+.cancel-button:hover {
   margin-left: 10%;
   margin-right: 10%;
   background-color: #0a3030;
-  color: #E4F2E7;
-  width:100%;
+  color: #e4f2e7;
+  width: 100%;
   font-weight: bolder;
-} 
+}
 
 /* right side design start ************************************************************** */
-.main-right{
+.main-right {
   background-color: #387373;
   height: 100%;
   justify-content: center;
   align-items: center;
 }
-.right-heading-box{
+.right-heading-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   height: 15%;
   width: 100%;
   margin-bottom: 2%;
   margin-top: 1%;
-  
 }
-.right-title{
+.right-title {
   font-size: 6vh;
   font-weight: bolder;
-  color: #E4F2E7;
+  color: #e4f2e7;
 }
 
-.right-location-box{
+.right-location-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #E4F2E7;
+  background-color: #e4f2e7;
   height: 10%;
   width: 90%;
   margin-bottom: 5%;
   margin-left: 5%;
 }
-.right-location{
+.right-location {
   color: #387373;
   font-weight: bolder;
   font-size: 5vh;
 }
-.right-new-hazard-heading-main-box{
+.right-new-hazard-heading-main-box {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   height: 20%;
   width: 90%;
   margin-bottom: 5%;
   margin-left: 5%;
 }
-.right-new-hazard-heading{
-  color: #E4F2E7;
+.right-new-hazard-heading {
+  color: #e4f2e7;
   font-weight: bolder;
   font-size: 5vh;
 }
-.right-new-hazard-heading-box{
+.right-new-hazard-heading-box {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   height: 30%;
   width: 80%;
   margin-top: 2%;
@@ -172,36 +163,35 @@ body, html {
   margin-left: 10%;
 }
 
-.right-hazard-heading-main-box{
+.right-hazard-heading-main-box {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   height: 40%;
   width: 90%;
   margin-bottom: 2%;
   margin-left: 5%;
-
 }
 
-.right-hazard-title-box{
+.right-hazard-title-box {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   height: 10%;
   width: 70%;
   margin-top: 2%;
 
   margin-left: 15%;
 }
-.right-new-hazard-heading{
+.right-new-hazard-heading {
   font-size: 4vh;
-  color: #E4F2E7;
+  color: #e4f2e7;
   font-weight: bolder;
 }
 
-.right-hazard-box{
+.right-hazard-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,11 +199,9 @@ body, html {
   height: 16%;
   width: 70%;
   margin-left: 15%;
-  
 }
-.right-hazard{
+.right-hazard {
   font-size: 4vh;
-  color: #E4F2E7;
+  color: #e4f2e7;
   font-weight: bolder;
 }
-
