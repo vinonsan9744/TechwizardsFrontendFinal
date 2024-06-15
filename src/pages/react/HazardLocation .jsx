@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import "./../style/HazardLocation .css";
 
@@ -28,9 +29,9 @@ function HazardLocation() {
               <div className="row">
                 <div className="hazard-location-possible-header-box container-flex"></div>
                 <div className="hazard-location-possible-content-box1 container-flex"></div>
-                <div className="hazard-location-possible-content-box2 container-flex"></div>
-                <div className="hazard-location-possible-content-box2 container-flex"></div>
-                <div className="hazard-location-possible-content-box2 container-flex"></div>
+                <div className="hazard-location-possible-content-box1 container-flex"></div>
+                <div className="hazard-location-possible-content-box1 container-flex"></div>
+                <div className="hazard-location-possible-content-box1 container-flex"></div>
               </div>
             </div>
           </div>

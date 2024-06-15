@@ -1,7 +1,6 @@
-import React from "react";
+
 import "./../style/SelectRoute .css";
-import Dropdown from "react-bootstrap/Dropdown";
-import Button from "react-bootstrap/Button";
+
 
 function SelectRoute() {
   return (
@@ -11,7 +10,7 @@ function SelectRoute() {
         <div className="row vh-100">
           {/* ..........this is the left side box start.......... */}
           <div className="main-left col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <div className="select-route-header-box container-flex vh-30">
+            <div className="select-route-header-box container-flex ">
               <div className="select-route-title">header</div>
             </div>
 
@@ -22,12 +21,16 @@ function SelectRoute() {
                 <div className="select-route-selection-box2 container-flex"></div>
               </div>
             </div>
-            <div className="select-route-button-box button-box container-flex"></div>
+            <div className="select-route-start-button-box button-box container-flex"></div>
+            <div className="select-route-back-button-box button-box container-flex"></div>
           </div>
           {/* ..........left side box ended.......... */}
 
           {/* ..........this is the right side box.......... */}
-          <div className="main-right col-sm-12 col-md-6 col-lg-6 col-xl-6"></div>
+          <div className="main-right col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="right-map-box container-flex"></div>
+          </div>
+          
           {/* ..........right side box ended.......... */}
         </div>
       </div>
