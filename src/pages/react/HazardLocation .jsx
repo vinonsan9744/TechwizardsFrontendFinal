@@ -9,8 +9,8 @@ function HazardLocation() {
         <div className="row vh-100">
           {/* ..........this is the left side box start.......... */}
           <div className="main-left col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <div className="heading-box container-flex w-100 vh-30">
-              <div className="title"></div>
+            <div className="hazard-location-header-box container-flex w-100 vh-30">
+              <div className="hazard-location-title"></div>
             </div>
 
             <div className="hazard-location-dropdown-box container-flex vh-30"></div>
@@ -28,6 +28,8 @@ function HazardLocation() {
               <div className="row">
                 <div className="hazard-location-possible-header-box container-flex"></div>
                 <div className="hazard-location-possible-content-box1 container-flex"></div>
+                <div className="hazard-location-possible-content-box2 container-flex"></div>
+                <div className="hazard-location-possible-content-box2 container-flex"></div>
                 <div className="hazard-location-possible-content-box2 container-flex"></div>
               </div>
             </div>

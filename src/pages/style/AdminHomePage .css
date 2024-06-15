@@ -18,11 +18,11 @@ html {
   font-weight: bolder;
   color: #e7e7e7;
   height: 15%;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-bottom: 80%;
-  width: 90%;
-  margin-left: 0%;
-  margin-right: 5%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
   justify-content: center;
   background-color: #787a7c;
   display: flex;
@@ -44,8 +44,7 @@ html {
   height: 84%;
   width: 90%;
   margin-bottom: 8%;
-  margin-top: 8%;
-
+  margin-top: 9%;
   margin-right: 5%;
 }
 
@@ -54,9 +53,9 @@ html {
   justify-content: center;
   align-items: center;
   background-color: rgb(225, 220, 220);
-  height: 15%;
+  height: 17%;
   width: 80%;
-  margin-top: 7%;
+  margin-top: 6%;
   margin-bottom: 5%;
   margin-left: 10%;
   margin-right: 10%;
@@ -67,7 +66,7 @@ html {
   justify-content: center;
   align-items: center;
   background-color: rgb(225, 220, 220);
-  height: 15%;
+  height: 17%;
   width: 80%;
   margin-bottom: 5%;
   margin-left: 10%;

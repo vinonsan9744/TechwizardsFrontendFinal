@@ -11,12 +11,17 @@ function SelectRoute() {
         <div className="row vh-100">
           {/* ..........this is the left side box start.......... */}
           <div className="main-left col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <div className="select-route-heading-box container-flex vh-30">
-              <div className="title">header</div>
+            <div className="select-route-header-box container-flex vh-30">
+              <div className="select-route-title">header</div>
             </div>
 
-            <div className="select-route-input-box container-flex"></div>
-
+            <div className="select-route-dropdown-box container-flex">
+              <div className="row">
+                <div className="select-route-selection-box1 container-flex"></div>
+                <div className="select-route-selection-box2 container-flex"></div>
+                <div className="select-route-selection-box2 container-flex"></div>
+              </div>
+            </div>
             <div className="select-route-button-box button-box container-flex"></div>
           </div>
           {/* ..........left side box ended.......... */}
@@ -31,4 +36,3 @@ function SelectRoute() {
 }
 
 export default SelectRoute;
-

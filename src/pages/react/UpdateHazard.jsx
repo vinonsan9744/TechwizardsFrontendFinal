@@ -9,11 +9,12 @@ function UpdateHazard() {
         <div className="row vh-100">
           {/* ..........this is the left side box start.......... */}
           <div className="main-left col-sm-12 col-md-3 col-lg-3 col-xl-3">
-            <div className="heading-box container-flex w-100 vh-30">
-              <div className="title">header</div>
+            <div className="update-hazard-header-box container-flex w-100 vh-30">
+              <div className="update-hazard-title">header</div>
             </div>
 
-            <div className="update-hazard-button-box container-flex vh-30"></div>
+            <div className="update-hazard-button-box1 container-flex vh-30"></div>
+            <div className="update-hazard-button-box2 container-flex vh-30"></div>
           </div>
           {/* ..........left side box ended.......... */}
 

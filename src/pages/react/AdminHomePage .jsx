@@ -9,9 +9,7 @@ function AdminHomePage() {
         <div className="row vh-100">
           {/* ..........this is the left side box start.......... */}
           <div className="main-left col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <div className="admin-title-box container-flex w-100 vh-30">
-              Admin
-            </div>
+            <div className="admin-title-box container-flex vh-30">Admin</div>
           </div>
           {/* ..........left side box ended.......... */}
 

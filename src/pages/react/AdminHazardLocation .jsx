@@ -12,13 +12,13 @@ function AdminHazardLocation() {
         <div className="row vh-100">
           {/* ..........this is the left side box start.......... */}
           <div className="main-left col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <div className="header-box container-flex w-100 vh-30">
-              <div className="title">header</div>
+            <div className="admin-hazard-location-header-box container-flex w-100 vh-30">
+              <div className="admin-hazard-location-title">header</div>
             </div>
 
-            <div className="dropdown-box container-flex vh-30"></div>
+            <div className="admin-hazard-location-dropdown-box container-flex vh-30"></div>
 
-            <div className="radio-button-box container-flex vh-30"></div>
+            <div className="admin-hazard-location-radio-button-box container-flex vh-30"></div>
 
             <div className="admin-hazard-location-button-box container-flex"></div>
           </div>
@@ -26,17 +26,23 @@ function AdminHazardLocation() {
 
           {/* ..........this is the right side box.......... */}
           <div className="main-right col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <div className="right-header-box container-flex vh-30"></div>
+            <div className="right-admin-hazard-location-header-box container-flex vh-30"></div>
 
-            <div className="right-location-kekirawa-box container-flex vh-30"></div>
+            <div className="right-admin-hazard-location-location-box container-flex vh-30"></div>
 
-            <div className="right-possible-hazards-main-box container-flex vh-30">
+            <div className="right-admin-hazard-location-possible-hazards-main-box container-flex vh-30">
               <div className="row">
-                <div className="right-possible-hazards-title-box container-flex"></div>
-                <div className="right-possible-hazards-box1 container-flex">
+                <div className="right-admin-hazard-location-possible-hazards-title-box container-flex"></div>
+                <div className="right-admin-hazard-location-possible-hazards-box1 container-flex">
                   estsrgd
                 </div>
-                <div className="right-possible-hazards-box2 container-flex">
+                <div className="right-admin-hazard-location-possible-hazards-box2 container-flex">
+                  rtrstr
+                </div>
+                <div className="right-admin-hazard-location-possible-hazards-box2 container-flex">
+                  rtrstr
+                </div>
+                <div className="right-admin-hazard-location-possible-hazards-box2 container-flex">
                   rtrstr
                 </div>
               </div>

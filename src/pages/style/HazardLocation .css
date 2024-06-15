@@ -12,7 +12,7 @@ html {
   height: 100%;
 }
 
-.heading-box {
+.hazard-location-header-box {
   display: flex;
   justify-content: flex-start;
   background-color: rgb(165, 168, 168);
@@ -20,10 +20,10 @@ html {
   width: 80%;
   border-bottom-right-radius: 200px;
   margin-left: -5%;
-  margin-bottom: 15%;
+  margin-bottom: 12%;
 }
 
-.title {
+.hazard-location-title {
   font-size: 3rem;
   text-align: center;
   font-weight: bolder;
@@ -39,10 +39,10 @@ html {
   align-items: center;
   background-color: rgb(165, 168, 168);
   height: 20%;
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-bottom: 15%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 12%;
 }
 
 .hazard-location-button-box1 {
@@ -51,7 +51,7 @@ html {
   width: 30%;
   margin-left: 35%;
   margin-right: 35%;
-  margin-bottom: 5%;
+  margin-bottom: 9%;
 }
 
 .hazard-location-button-box2 {
@@ -78,8 +78,8 @@ html {
   background-color: rgb(199, 207, 207);
   height: 10%;
   width: 80%;
-  margin-top: 20%;
-  margin-bottom: 10%;
+  margin-top: 8%;
+  margin-bottom: 8%;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -89,9 +89,9 @@ html {
   justify-content: center;
   align-items: center;
   background-color: rgb(199, 207, 207);
-  height: 45%;
+  height: 70%;
   width: 90%;
-  margin-bottom: 5%;
+  margin-bottom: 12%;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -101,12 +101,12 @@ html {
   justify-content: center;
   align-items: center;
   background-color: rgb(241, 247, 247);
-  height: 15%;
-  width: 65%;
-  margin-left: 17.5%;
-  margin-right: 17.5%;
-  margin-top: 10%;
-  margin-bottom: 5%;
+  height: 10%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .hazard-location-possible-content-box1 {
@@ -114,9 +114,9 @@ html {
   justify-content: center;
   align-items: center;
   background-color: rgb(241, 247, 247);
-  height: 20%;
+  height: 15%;
   width: 50%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   margin-left: 25%;
   margin-right: 25%;
 }
@@ -126,9 +126,9 @@ html {
   justify-content: center;
   align-items: center;
   background-color: rgb(241, 247, 247);
-  height: 20%;
+  height: 15%;
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
-  margin-bottom: 10%;
+  margin-bottom: 3%;
 }
