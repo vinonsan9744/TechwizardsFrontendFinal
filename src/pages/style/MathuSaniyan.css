@@ -1,0 +1,55 @@
+.radioContainer {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+  }
+  
+  /* Hide the default radio button */
+  .radioContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .customRadio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ccc;
+    border-radius: 50%;
+  }
+  
+  /* When the radio button is checked, add a background color */
+  .radioContainer input:checked ~ .customRadio {
+    background-color: #9e1f1f;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .customRadio:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when the radio button is checked */
+  .radioContainer input:checked ~ .customRadio:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .radioContainer .customRadio:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgb(238, 224, 161);
+  }
+  

@@ -8,47 +8,47 @@ html {
 /* ..........left side design start.......... */
 
 .main-left {
-  background-color: white;
+  background-color: rgb(235, 234, 234);
   height: 100%;
 }
 
 .update-hazard-header-box {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   background-color: rgb(199, 207, 207);
   height: 20%;
-  width: 80%;
+  width: 100%;
   border-bottom-right-radius: 200px;
   margin-left: -5%;
-  margin-bottom: 112%;
+  margin-bottom: 3%;
 }
 
 .update-hazard-title {
   font-size: 3rem;
   text-align: center;
   font-weight: bolder;
-  margin-left: 15%;
+  margin-left: 5%;
   color: #e4f2e7;
-  margin-bottom: 10%;
-  justify-content: center;
+  
 }
 
-.update-hazard-button-box1 {
-  background-color: rgb(207, 215, 221);
-  height: 10%;
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-bottom: 11%;
+.update-hazard-main-input-box{
+  background-color: #787a7c;
+  height: 70%;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-.update-hazard-button-box2 {
-  background-color: rgb(207, 215, 221);
-  height: 10%;
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+.update-hazard-input-box {
+  background-color: rgb(244, 251, 255);
+  height: 12%;
+  width: 90%;
+  margin-top: 2%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
+
 
 /* ..........right side design start.......... */
 .main-right {
@@ -58,40 +58,40 @@ html {
   align-items: center;
 }
 
-.update-hazard-main-input-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(199, 207, 207);
-  height: 90%;
-  width: 90%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+.right-main-space {
+ 
+  height: 20%;
+  width: 100%;
+  margin-bottom: 10%;
 }
 
-.update-hazard-input-box1 {
-  display: flex;
+.right-button-main-box{
+  background-color: #e4f2e7;
+  height: 70%;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Update-hazard-button-box1 {
+  background-color: rgb(126, 113, 113);
+  height: 15%;
+  width: 90%;
   justify-content: center;
   align-items: center;
-  background-color: rgb(225, 220, 220);
-  height: 10%;
-  width: 80%;
-  margin-top: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.update-hazard-input-box2 {
-  display: flex;
+.Update-hazard-button-box2 {
+  background-color: rgb(126, 113, 113);
+  height: 15%;
+  width: 80%;
   justify-content: center;
   align-items: center;
-  background-color: rgb(225, 220, 220);
-  height: 30%;
-  width: 80%;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-bottom: 5%;
   margin-left: 10%;
   margin-right: 10%;
 }
