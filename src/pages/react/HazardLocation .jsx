@@ -11,7 +11,9 @@ function HazardLocation() {
           {/* ..........this is the left side box start.......... */}
           <div className="main-left col-sm-12 col-md-6 col-lg-6 col-xl-6">
             <div className="hazard-location-header-box container-flex w-100 vh-30">
-              <div className="hazard-location-title"></div>
+              <div className="hazard-location-title">
+                <h1>Hazard Location</h1>
+              </div>
             </div>
 
             <div className="hazard-location-dropdown-box container-flex vh-30"></div>
