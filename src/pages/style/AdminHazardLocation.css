@@ -48,12 +48,12 @@ html {
 .admin-hazard-location-location-textbox{
   height: 100%;
   width: 100%;
-  border-color: #387373;
-  border-width: 3px;
-  border-radius: 4vh;
   font-size: 5vh;
-  font-weight: bolder;
-  color: #387373;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  border-radius: 3vh;
+  border: .5vh solid #387373;
+  font-weight: bold;
 }
 
 .admin-hazard-location-location-textbox::placeholder {
@@ -73,13 +73,12 @@ html {
 }
 
 .admin-hazard-location-left-button-box1 {
-  background-color: rgb(199, 207, 207);
+  /* background-color: rgb(199, 207, 207); */
   height: 10%;
   width: 30%;
   margin-left: 35%;
   margin-right: 35%;
   margin-bottom: 2%;
-  border-radius: 6vh;
 }
 
 .admin-hazard-location-update-button{
@@ -90,6 +89,7 @@ html {
   color: #e4f2e7;
   font-size: 5vh;
   font-weight: bolder;
+  border-color: #0a3030;
 
 }
 
