@@ -18,6 +18,8 @@ import UpdateLPDetails from "./pages/react/UpdateLPDetails";
 import AdminHazardLocation from "./pages/react/AdminHazardLocation ";
 import UpdateHazard from "./pages/react/UpdateHazard";
 import MathuSaniyan from "./pages/react/MathuSaniyan";
+import Sample from "./pages/react/Sample";
+
 
 const router = createBrowserRouter([
   {
@@ -71,6 +73,10 @@ const router = createBrowserRouter([
   {
     path: "/mathu",
     element: <MathuSaniyan />,
+  },
+  {
+    path: "/sample",
+    element: <Sample />,
   },
   
 
