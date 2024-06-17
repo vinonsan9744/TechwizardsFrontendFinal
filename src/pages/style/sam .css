@@ -1,0 +1,36 @@
+
+.radioButtonMain {
+    display: block; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content vertically */
+    padding: 20px; /* Padding inside the container */
+    color: #387373;
+
+}
+
+.radioItemButon {
+    display: flex;
+    margin-bottom: 15px; /* Space between each radio button */
+    
+}
+
+.inputRadioButton {
+    margin-right: 10px; /* Space between the radio input and label */
+    border-color: #387373;
+    border-width: 3px;
+    background-color: aliceblue;
+    height: 15px;
+    width: 15px;
+
+}
+
+.lableRadioButton {
+    font-weight: bold; /* Bold font weight */
+    font-size: 2.5vh;
+}
+.radioButtonMain .radioItemButton .labelRadioButton {
+    font-weight: bold; /* Ensure the font is bold */
+    color: #FF5733; /* New font color */
+    font-size: 15px;
+}
