@@ -15,7 +15,7 @@ html {
 .admin-hazard-location-header-box {
   display: flex;
   justify-content: flex-start;
-  background-color: rgb(199, 207, 207);
+  background-color: #387373;
   height: 20%;
   width: 100%;
   border-bottom-right-radius: 200px;
@@ -23,8 +23,9 @@ html {
   margin-bottom: 2%;
 }
 
+
 .admin-hazard-location-title {
-  font-size: 4rem;
+  font-size: 8vh;
   text-align: left;
   font-weight: bolder;
   margin-left: 5%;
@@ -39,9 +40,26 @@ html {
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 2%;
-  background-color: rgb(110, 112, 112);
+  background-color: rgb(213, 219, 219);
+  border-radius: 4vh;
+ 
 }
 
+.admin-hazard-location-location-textbox{
+  height: 100%;
+  width: 100%;
+  border-color: #387373;
+  border-width: 3px;
+  border-radius: 4vh;
+  font-size: 5vh;
+  font-weight: bolder;
+  color: #387373;
+}
+
+.admin-hazard-location-location-textbox::placeholder {
+  color: #387373; /* Change this to your desired color */
+  opacity: 50%; /* Ensures the color appears as expected */
+}
 
 .admin-hazard-location-left-radio-button-box {
   height: 40%;
@@ -61,7 +79,31 @@ html {
   margin-left: 35%;
   margin-right: 35%;
   margin-bottom: 2%;
+  border-radius: 6vh;
 }
+
+.admin-hazard-location-update-button{
+  height: 100%;
+  width: 100%;
+  border-radius: 6vh;
+  background-color: #387373;
+  color: #e4f2e7;
+  font-size: 5vh;
+  font-weight: bolder;
+
+}
+
+.admin-hazard-location-update-button:hover{
+  height: 100%;
+  width: 100%;
+  border-radius: 6vh;
+  background-color: #0a3030;
+  color: #e4f2e7;
+  font-size: 5vh;
+  font-weight: bolder;
+
+}
+
 
 .admin-hazard-location-left-button-box2 {
   background-color: rgb(199, 207, 207);
@@ -69,11 +111,35 @@ html {
   width: 30%;
   margin-left: 35%;
   margin-right: 35%;
+  border-radius: 6vh;
+}
+
+
+.admin-hazard-location-back-button{
+  height: 100%;
+  width: 100%;
+  border-radius: 6vh;
+  background-color: #387373;
+  color: #e4f2e7;
+  font-size: 5vh;
+  font-weight: bolder;
+
+}
+
+.admin-hazard-location-back-button:hover{
+  height: 100%;
+  width: 100%;
+  border-radius: 6vh;
+  background-color: #0a3030;
+  color: #e4f2e7;
+  font-size: 5vh;
+  font-weight: bolder;
+
 }
 
 /* ..........right side design start.......... */
-.main-right {
-  background-color: #787a7c;
+.admin-hazard-location-main-right {
+  background-color: #387373;
   height: 100%;
   justify-content: center;
   align-items: center;
@@ -89,6 +155,12 @@ html {
   margin-right: 15%;
   margin-top: 1%;
  
+}
+
+.right-admin-hazard-location-header-heading{
+font-size: 10vh;
+font-weight: bolder;
+color: #e4f2e7;
 }
 
 .right-admin-hazard-location-header-box-line {

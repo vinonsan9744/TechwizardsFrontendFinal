@@ -6,69 +6,140 @@ html {
 }
 
 /* ..........left side design start.......... */
-
-.main-left {
-  background-color: white;
+.AdminHomePage-heading-box{
+  background-color: #387373;
   height: 100%;
-}
-
-.admin-title-box {
-  font-size: 3rem;
-  text-align: center;
-  font-weight: bolder;
-  color: #e7e7e7;
-  height: 15%;
-  margin-top: 10%;
-  margin-bottom: 80%;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 0;
+  width: 100%;
+  border-bottom-right-radius:100px ;
   justify-content: center;
-  background-color: #787a7c;
-  display: flex;
+  align-items: center;
 }
-
+.AdminHomePage-left-container-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* Full viewport height */
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.AdminHomePage-heading-title{
+  font-size: 8vh;
+font-weight: bolder;
+color: #e4f2e7;
+text-align: center;
+margin-top: 1%;
+}
 /* ..........right side design start.......... */
-.main-right {
-  background-color: #787a7c;
-  height: 100%;
+.AdminHomePage-right-container-flex{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 80vh; /* Full viewport height */
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.admin-main-button-box {
-  display: flex;
+.AdminHomePage-card-box-1{
+  
+  height: 100%;
+  
+}
+.AdminHomePage-card-box-2{
+  
+  height: 100%;
+}
+.AdminHomePage-card-box-3{
+  
+  height: 100%;
+}
+.AdminHomePage-card-box-4{
+  
+  height: 100%;
+}
+
+.AdminHomePage-inserted-card-box-1{
+  
+  height: 96%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   justify-content: center;
   align-items: center;
-  background-color: rgb(199, 207, 207);
-  height: 84%;
   width: 90%;
-  margin-bottom: 8%;
-  margin-top: 9%;
+  margin-left: 5%;
   margin-right: 5%;
 }
 
-.admin-button-box1 {
-  display: flex;
+.AdminHomePage-inserted-card-box-2{
+  
+  height: 96%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   justify-content: center;
   align-items: center;
-  background-color: rgb(225, 220, 220);
-  height: 17%;
-  width: 80%;
-  margin-top: 6%;
-  margin-bottom: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.admin-button-box2 {
-  display: flex;
+.AdminHomePage-inserted-card-box-3{
+  
+  height: 96%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   justify-content: center;
   align-items: center;
-  background-color: rgb(225, 220, 220);
-  height: 17%;
-  width: 80%;
-  margin-bottom: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.AdminHomePage-inserted-card-box-4{
+  
+  height: 96%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.AdminHomePage-inserted-card{
+  border-color: #387373;
+  border-radius: 5vh;
+}
+.AdminHomePage-inserted-card-box-image{
+  height: 50%;
+  width: 100%;
+  border-top-left-radius: 4vh;
+  border-top-right-radius: 4vh;
+}
+.AdminHomePage-inserted-card-box-title{
+  font-size: 4vh;
+font-weight: bolder;
+color: #387373;
+}
+.AdminHomePage-inserted-card-box-text{
+  font-size: 3vh;
+  font-weight: bolder;
+  color: #387373;
+}
+
+.AdminHomePage-inserted-card-box-button{
+  background-color: #387373;
+  color: #e4f2e7;
+  font-weight: bolder;
+  
+}
+
+.AdminHomePage-inserted-card-box-button:hover{
+  background-color: #0f3838;
+  color: #e4f2e7;
+  font-weight: bolder;
 }
