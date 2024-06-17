@@ -2,107 +2,83 @@
 import React from "react";
 import "./../style/LoginPage.css";
 
-import { FaTrainSubway } from "react-icons/fa6";
-import { MdLandslide } from "react-icons/md";
-import { GiElephant } from "react-icons/gi";
-import { BsFillCloudFog2Fill } from "react-icons/bs";
-import { FaCloudRain } from "react-icons/fa6";
-import { FaLocationDot } from "react-icons/fa6";
-
-import { Form, Button } from "react-bootstrap";
 
 function LoginPage() {
   return (
     <>
-      <div className="container-flex text-center" style={{ height: "100vh" }}>
-        <div className="row" style={{ height: "100%" }}>
-          <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 left d-flex flex-column align-items-center justify-content-center">
-            <h1 className="title">Sri Lanka Railway Safety System</h1>
-            <div>
-              <p className="description">
-                Welcome to the Sri Lankan Railway Department's Locomotive Pilot
-                and Admin System! Streamlining railway operations for efficiency
-                and safety across Sri Lanka.
-                <hr className="line" />
-              </p>
-            </div>
+      <div className="container-flex vh-100">
+      <div className="row vh-100">
 
-            <div className="mainicon">
-              <div className="circle">
-                <FaTrainSubway className="icon" />
-              </div>
-              <div className="circle">
-                <MdLandslide className="icon" />
-              </div>
-              <div className="circle">
-                <GiElephant className="icon" />
-              </div>
-              <div className="circle">
-                <BsFillCloudFog2Fill className="icon" />
-              </div>
-              <div className="circle">
-                <FaCloudRain className="icon" />
-              </div>
-              <div className="circle">
-                <FaLocationDot className="icon" />
-              </div>
-            </div>
+        {/* left side bar start */}
+          <div className="LoginPage-main-left col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+            
+             <div className="hazard-LoginPage-header-box container-flex">
+             {/* <div className="hazard-LoginPage-header-title">Sri Lanka Railway Safety System</div> */}
+             </div>
+
+             <div className="hazard-LoginPage-description-box container-flex">
+             {/* <div className="hazard-LoginPage-header-title">Sri Lanka Railway Safety System</div> */}
+             </div>
+
+             <div className="hazard-LoginPage-line-box container-flex">
+             {/* <div className="hazard-LoginPage-header-title">Sri Lanka Railway Safety System</div> */}
+             </div>
+
+             <div className="hazard-LoginPage-circle-box container-flex">
+                <div className="hazard-LoginPage-circle1 container-flex"></div>
+                <div className="hazard-LoginPage-circle container-flex"></div>
+                <div className="hazard-LoginPage-circle container-flex"></div>
+                <div className="hazard-LoginPage-circle container-flex"></div>
+                <div className="hazard-LoginPage-circle container-flex"></div>
+                <div className="hazard-LoginPage-circle container-flex"></div>
+                <div className="hazard-LoginPage-circle container-flex"></div>
+             </div>
+
+            
+          
+
+         
+          </div>
+{/* left side bar end  */}
+          
+
+          <div className="LoginPage-main-right col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+
+             <div className="hazard-LoginPage-heading-box container-flex">
+             {/* <div className="hazard-LoginPage-header-title">Sri Lanka Railway Safety System</div> */}
+             </div>
+
+             <div className="hazard-LoginPage-heading-line-box container-flex">
+             {/* <div className="hazard-LoginPage-header-title">Sri Lanka Railway Safety System</div> */}
+             </div>
+
+             <div className="hazard-LoginPage-radio-box container-flex">
+             {/* <div className="hazard-LoginPage-header-title">Sri Lanka Railway Safety System</div> */}
+             </div>
+
+             <div className="hazard-LoginPage-text-box container-flex">
+             {/* <div className="hazard-LoginPage-header-title">Sri Lanka Railway Safety System</div> */}
+             </div>
+
+             <div className="hazard-LoginPage-text-box container-flex">
+             {/* <div className="hazard-LoginPage-header-title">Sri Lanka Railway Safety System</div> */}
+             </div>
+
+             <div className="hazard-LoginPage-login-button-box container-flex">
+             {/* <div className="hazard-LoginPage-header-title">Sri Lanka Railway Safety System</div> */}
+             </div>
+
+             <div className="hazard-LoginPage-register-button-box container-flex">
+             {/* <div className="hazard-LoginPage-header-title">Sri Lanka Railway Safety System</div> */}
+             </div>
+
+             <div className="hazard-LoginPage-forgot-label-box container-flex">
+             {/* <div className="hazard-LoginPage-header-title">Sri Lanka Railway Safety System</div> */}
+             </div>
+
           </div>
 
-          <div className="right col-sm-12 col-md-6 col-lg-6 col-xl-6  d-flex flex-column align-items-center justify-content-center">
-            <h1 className="righttitle">Login</h1>
-            <hr className="rightline" />
-            <div>
-              <div className="form fullscreen">
-                <Form>
-                  {["radio"].map((type) => (
-                    <div key={`inline-${type}`} className="mb-3">
-                      <Form.Check
-                        inline
-                        label={<span className="custom-label">Admin</span>}
-                        name="group1"
-                        type={type}
-                        id={`inline-${type}-1`}
-                        className="custom-radio"
-                      />
-                      <Form.Check
-                        inline
-                        label={
-                          <span className="custom-label">Locomotive pilot</span>
-                        }
-                        name="group1"
-                        type={type}
-                        id={`inline-${type}-2`}
-                        className="custom-radio"
-                      />
-                    </div>
-                  ))}
 
-                  <Form.Group controlId="formUsername" className="mb-3">
-                    <Form.Control
-                      type="text"
-                      placeholder="Enter username"
-                      className="custom-textbox"
-                    />
-                  </Form.Group>
-
-                  <Form.Group controlId="formPassword" className="mb-3">
-                    <Form.Control
-                      type="password"
-                      placeholder="Enter password"
-                      className="custom-textbox"
-                    />
-                  </Form.Group>
-
-                  <div className="d-grid gap-2">
-                    <Button variant="success" size="lg">
-                      Block level button
-                    </Button>
-                  </div>
-                </Form>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </>

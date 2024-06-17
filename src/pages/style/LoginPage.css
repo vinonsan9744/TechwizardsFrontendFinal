@@ -1,8 +1,8 @@
 .container-flex {
   height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .row {
@@ -11,113 +11,157 @@
   display: flex;
 }
 
-.left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/* left side container start  */
+.LoginPage-main-left {
+  height: 100%;
   background-color: #387373;
 }
-
-.right{
+.hazard-LoginPage-header-box{
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  background-color: #daf1f1;
-  
+  background-color: #eaf7f7;
+  height: 20%;
+  width: 100%;
+  margin-left: 1%;
+  margin-top: 2%;
+ margin-bottom: 5%;
 }
-
-.title {
+.hazard-LoginPage-description-box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #eaf7f7;
+  height: 42%;
+  width: 100%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+.hazard-LoginPage-line-box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #eaf7f7;
+  height: 2%;
+  width: 100%;
+  margin-left: 1%;
   margin-bottom: 5%;
-  margin-top: 20%;
-  color: #daf1f1;
-  
-  font-size: 2rem;
-  font-weight: bolder;
 }
 
-.description {
-  font-size: 1rem;
-  text-align: justify;
-  color: #daf1f1;
-  font-weight: bold;
-
-}
-.mainicon {
+.hazard-LoginPage-circle-box{
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
-  height: 15vh;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 10%;
+  background-color: #eaf7f7;
+  height: 15%;
+  width: 100%;
+  margin-left: 1%;
+  
 }
-
-.circle {
-  width: 50px;
-  height: 50px;
+.hazard-LoginPage-circle1{
+  width: 10vmin;
+  height: 10vmin;
+  max-width: 200px;
+  max-height: 200px;
+  background-color: #d0d2d4;
   border-radius: 50%;
+  margin-left: 5%;
+}
+.hazard-LoginPage-circle{
+  width: 10vmin;
+  height: 10vmin;
+  max-width: 200px;
+  max-height: 200px;
+  background-color: #d0d2d4;
+  border-radius: 50%;
+  margin-left: 4%;
+}
+/* left side container end  */
+.LoginPage-main-right {
+  height: 100%;
   background-color: #ffffff;
+}
+.hazard-LoginPage-heading-box{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin-bottom: 10%;
-  margin-left: 2%;
-  margin-right: 2%;
+  background-color: #bdc2c2;
+  height: 15%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+ margin-bottom: 2%;
 }
-
-.icon {
-  color: #387373;
-  font-size: 2rem;
+.hazard-LoginPage-heading-line-box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #bdc2c2;
+  height: 3%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+ margin-bottom: 5%;
 }
-
-.line {
-  width: 100%; /* Adjust the length of the line */
-  border: 6px solid #ffffff; /* Adjust the color and thickness of the line */
-  margin-bottom: 10px; /* Space between the line and the icon */
-  margin-top: 6%;
+.hazard-LoginPage-radio-box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #bdc2c2;
+  height: 10%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+ margin-bottom: 2%;
 }
-
-.righttitle{
-  color: #387373;
-  font-size: 2.5rem;
-  font-weight: bolder;
+.hazard-LoginPage-text-box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #bdc2c2;
+  height: 10%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+ margin-bottom: 2%;
 }
-.rightline{
-  width: 30%; /* Adjust the length of the line */
-  border: 6px solid #387373; /* Adjust the color and thickness of the line */
-  color: #387373;
-  
+.hazard-LoginPage-login-button-box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #bdc2c2;
+  height: 10%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+ margin-bottom: 2%;
 }
-
-/* Override Bootstrap styles for radio buttons */
-.custom-radio .form-check-input:checked {
-  background-color: #387373; /* Customize the background color */
-  border-color: #387373; /* Customize the border color */
+.hazard-LoginPage-register-button-box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #bdc2c2;
+  height: 10%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+ margin-bottom: 2%;
 }
-
-.custom-radio .form-check-input:focus {
-  box-shadow: 0 0 0 0.2rem #04524140; /* Customize the focus shadow */
-}
-
-.custom-radio .form-check-input {
-  cursor: pointer;
-}
-
-.custom-label {
-  font-size: 1rem; /* Adjust the label size */
-  color: #387373; /* Customize the label color */
-  font-weight: bold;
-}
-
-/* Custom styles for text boxes */
-.custom-textbox {
-  font-size: 1.2rem; /* Increase font size */
-  padding: 0.5rem 1rem; /* Increase padding */
-  border: 1px solid #387373; /* Customize border color */
-  border-radius: 1rem; /* Optional: round the corners */
-}
-.fullscreen{
-width: 100%;
+.hazard-LoginPage-forgot-label-box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #bdc2c2;
+  height: 6%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+ margin-bottom: 2%;
 }
