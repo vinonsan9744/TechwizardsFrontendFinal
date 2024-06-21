@@ -1,7 +1,7 @@
 
 import React from 'react';
-import Form from 'react-bootstrap/Form';
-import './../style/Sam .css'; // Ensure this path is correct
+
+import './../style/sam .css'; // Ensure this path is correct
 
 function Sample() {
     const [selectedMethod, setSelectedMethod] = React.useState('card'); // Using React.useState
