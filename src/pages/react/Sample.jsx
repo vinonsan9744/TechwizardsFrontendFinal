@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Form from 'react-bootstrap/Form';
 import './../style/Sam .css'; // Ensure this path is correct
@@ -57,6 +58,7 @@ function Sample() {
             </label>
         </div>
               
+
 
         </div>
     );

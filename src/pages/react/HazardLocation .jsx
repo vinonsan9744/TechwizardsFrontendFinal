@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button';
 function HazardLocation() {
   return (
     <>
+
       {/* ..........this is the main division of screen.......... */}
       <div className="container-flex vh-100">
         <div className="row vh-100">
@@ -76,6 +77,7 @@ function HazardLocation() {
           {/* ..........right side box ended.......... */}
         </div>
       </div>
+
     </>
   );
 }

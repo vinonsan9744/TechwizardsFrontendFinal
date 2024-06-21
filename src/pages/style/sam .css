@@ -1,3 +1,4 @@
+
 .admin-hazard-location-payment-methods {
     display: flex;
     flex-direction: column; /* Display items in a column */
@@ -52,9 +53,11 @@
     border: 1vh solid #387373; /* Default border color */
     background-color: #fff; /* Default background color */
     transition: background-color 0.3s, border-color 0.3s;
+
 }
 
 .admin-hazard-location-radio-button:checked {
     background-color: #022d2d; /* Updated background color for checked radio button */
     border-color: #215b5b; /* Updated border color for checked radio button */
 }
+

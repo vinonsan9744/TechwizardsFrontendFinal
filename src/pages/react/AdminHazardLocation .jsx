@@ -9,6 +9,7 @@ function AdminHazardLocation() {
 
   return (
     <>
+
       {/* ..........this is the main division of screen.......... */}
       <div className="container-flex vh-100">
         <div className="row vh-100">
@@ -138,6 +139,7 @@ function AdminHazardLocation() {
           {/* ..........right side box ended.......... */}
         </div>
       </div>
+
     </>
   );
 }
