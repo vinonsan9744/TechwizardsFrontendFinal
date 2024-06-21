@@ -3,6 +3,7 @@ import React from "react";
 import "./../style/HazardLocation .css";
 import Button from 'react-bootstrap/Button';
 
+
 function HazardLocation() {
   return (
     <>
@@ -13,7 +14,7 @@ function HazardLocation() {
           <div className="hazard-location-main-left col-sm-12 col-md-6 col-lg-6 col-xl-6">
             <div className="hazard-location-header-box container-flex w-100 vh-30">
 
-              <div className="hazard-location-header-title">Hazard Location</div>
+              <h1 className="hazard-location-header-title">Hazard Location</h1>
 
             </div>
 

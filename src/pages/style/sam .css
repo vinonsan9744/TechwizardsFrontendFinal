@@ -1,36 +1,60 @@
-
-.radioButtonMain {
-    display: block; 
+.admin-hazard-location-payment-methods {
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Center content vertically */
-    padding: 20px; /* Padding inside the container */
-    color: #387373;
+    flex-direction: column; /* Display items in a column */
+    gap: 2%; /* Adjust the gap between items */
+    width: 100%;
 
 }
 
-.radioItemButon {
+.admin-hazard-location-method {
     display: flex;
-    margin-bottom: 15px; /* Space between each radio button */
-    
+    align-items: center;
+    padding: 1% 2%;
+    border-radius: 2vh; /* Rounded buttons */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    background-color: #387373;
 }
 
-.inputRadioButton {
-    margin-right: 10px; /* Space between the radio input and label */
-    border-color: #387373;
-    border-width: 3px;
-    background-color: aliceblue;
-    height: 15px;
-    width: 15px;
-
+.admin-hazard-location-method-text {
+    margin-left: 1%;
+    font-size: 4vh;
+    font-weight: bold;
+    color: #e4f2e7; /* White text color */
 }
 
-.lableRadioButton {
-    font-weight: bold; /* Bold font weight */
-    font-size: 2.5vh;
+.admin-hazard-location-method.selected {
+    background-color: #022d2d; /* Dark blue background color */
+    border-color: #215b5b; /* Dark teal border color */
+    color: #e4f2e7; /* White text color */
 }
-.radioButtonMain .radioItemButton .labelRadioButton {
-    font-weight: bold; /* Ensure the font is bold */
-    color: #FF5733; /* New font color */
-    font-size: 15px;
+
+.admin-hazard-location-method.selected input[type="radio"] {
+    border-color: #fff; /* Adjusted border color for selected radio button */
+}
+
+.admin-hazard-location-method:not(.selected) {
+    color: #022d2d; /* Default text color */
+}
+
+.admin-hazard-location-method:not(.selected) input[type="radio"]:checked {
+    background-color: #022d2d; /* Updated background color for checked radio button */
+    border-color: #215b5b; /* Updated border color for checked radio button */
+}
+
+.admin-hazard-location-radio-button {
+    height: 3vh;
+    width: 3vh;
+    margin-right: 2%; /* Add margin to separate radio button from text */
+    appearance: none;
+    border-radius: 50%;
+    border: 1vh solid #387373; /* Default border color */
+    background-color: #fff; /* Default background color */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.admin-hazard-location-radio-button:checked {
+    background-color: #022d2d; /* Updated background color for checked radio button */
+    border-color: #215b5b; /* Updated border color for checked radio button */
 }
