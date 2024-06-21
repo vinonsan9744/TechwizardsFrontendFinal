@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import "./../style/LoginPage.css";
-import Button from 'react-bootstrap/Button';
 
 function LoginPage() {
   const [selectedOption, setSelectedOption] = useState('');
@@ -11,6 +10,7 @@ function LoginPage() {
   };
   return (
     <>
+
       <div className="container-flex vh-100">
       <div className="row vh-100">
 
@@ -115,6 +115,7 @@ function LoginPage() {
 
         </div>
       </div>
+
     </>
   );
 }

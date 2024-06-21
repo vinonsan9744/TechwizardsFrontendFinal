@@ -1,41 +1,63 @@
-/* styles.css */
-.hazard-LoginPage-radio-container {
+
+.admin-hazard-location-payment-methods {
     display: flex;
-    align-items: center;
-    gap: 20px;
+    flex-direction: column; /* Display items in a column */
+    gap: 2%; /* Adjust the gap between items */
+    width: 100%;
+
 }
 
-.hazard-LoginPage-radio-label {
+.admin-hazard-location-method {
     display: flex;
     align-items: center;
+    padding: 1% 2%;
+    border-radius: 2vh; /* Rounded buttons */
     cursor: pointer;
-}
-
-.hazard-LoginPage-radio-label input[type="radio"] {
-    display: none; /* Hide the native radio button */
-}
-
-.hazard-LoginPage-custom-radio {
-    width: 20px;
-    height: 20px;
-    border: 2px solid #387373;
-    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
     position: relative;
-    margin-right: 8px;
+    background-color: #387373;
 }
 
-.hazard-LoginPage-radio-label input[type="radio"]:checked + .hazard-LoginPage-custom-radio {
-    background-color: #387373; /* Change the color when checked */
+.admin-hazard-location-method-text {
+    margin-left: 1%;
+    font-size: 4vh;
+    font-weight: bold;
+    color: #e4f2e7; /* White text color */
 }
 
-.hazard-LoginPage-radio-label input[type="radio"]:checked + .hazard-LoginPage-custom-radio::before {
-    content: "";
-    width: 10px;
-    height: 10px;
-    background-color: #fff;
+.admin-hazard-location-method.selected {
+    background-color: #022d2d; /* Dark blue background color */
+    border-color: #215b5b; /* Dark teal border color */
+    color: #e4f2e7; /* White text color */
+}
+
+.admin-hazard-location-method.selected input[type="radio"] {
+    border-color: #fff; /* Adjusted border color for selected radio button */
+}
+
+.admin-hazard-location-method:not(.selected) {
+    color: #022d2d; /* Default text color */
+}
+
+.admin-hazard-location-method:not(.selected) input[type="radio"]:checked {
+    background-color: #022d2d; /* Updated background color for checked radio button */
+    border-color: #215b5b; /* Updated border color for checked radio button */
+}
+
+.admin-hazard-location-radio-button {
+    height: 3vh;
+    width: 3vh;
+    margin-right: 2%; /* Add margin to separate radio button from text */
+    appearance: none;
     border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    border: 1vh solid #387373; /* Default border color */
+    background-color: #fff; /* Default background color */
+    transition: background-color 0.3s, border-color 0.3s;
+
 }
+
+.admin-hazard-location-radio-button:checked {
+    background-color: #022d2d; /* Updated background color for checked radio button */
+    border-color: #215b5b; /* Updated border color for checked radio button */
+}
+
