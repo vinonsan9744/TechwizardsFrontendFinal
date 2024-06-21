@@ -11,7 +11,7 @@ function ApproveHazard () {
           {/* ..........this is the left side box start.......... */}
           <div className="ah-main-left col-sm-12 col-md-6 col-lg-6 col-xl-6">
             <div className="ah-header-box container-flex w-100 vh-30">
-              <div className="ah-title">header</div>
+              <h1 className="ah-title">Approve Hazard</h1>
              </div>
              <div className='ah-newhazard-box continer-flex vh-30'>
              <div className="row">
@@ -47,24 +47,49 @@ function ApproveHazard () {
 
            {/* ..........this is the right side box.......... */}
            <div className="ah-main-right col-sm-12 col-md-6 col-lg-6 col-xl-6">
-           <div className="ah-right-header-box container-flex vh-30"></div>
+           <div className="ah-right-header-box container-flex vh-30">
+            Hazard Approvel
+           </div>
            
            <div className="ah-right-hazard-approve-main-box container-flex vh-30">
               <div className="row">
                 <div className="ah-right-location-box container-flex">
-                  location
+                    <div className="column container-flex">
+                          <div className='ah-location-content-box container-flex'>
+
+                          </div>
+                          <div className='ah-location-icon-box container-flex'>
+
+                          </div>
+
+                    </div>
+                
+                
                 </div>
                 <div className="ah-right-hazards-box container-flex">
-                  hazard
+                     <div className="column container-flex">
+                             <div className='ah-hazard-content-box container-flex'>
+
+                             </div>
+                             <div className='ah-hazard-icon-box container-flex'>
+
+                             </div>
+
+                      </div>
+               
                 </div>
               </div>
             </div>
             <div className="ah-button-box1 container-flex">
-            
+           
             </div>
             <div className="ah-button-box2 container-flex">
-            
+           
             </div>
+            <div className="ah-button-box3 container-flex">
+           
+           </div>
+
 
 
             
