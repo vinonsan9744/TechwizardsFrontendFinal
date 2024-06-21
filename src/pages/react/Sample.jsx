@@ -1,27 +1,37 @@
-import React from 'react';
-import Form from 'react-bootstrap/Form';
-import './../style/sam .css'; // Ensure this path is correct
+/* eslint-disable no-unused-vars */
+import React, { useState } from 'react';
+import './../style/sam .css'; // Import the CSS file
+
 function Sample() {
-    const radioNames = ['Elephant', 'Bull', 'Other'];
+    const [selectedOption, setSelectedOption] = useState('');
+
+    const handleOptionChange = (event) => {
+        setSelectedOption(event.target.value);
+    };
 
     return (
-        <Form className=" radioButtonMain">
-            {radioNames.map((name, index) => (
-                <div key={index} className="radioItemButon">
-                    <Form.Check 
-                        type="radio" 
-                        id={`radio-${index}`} 
-                        
-                    >
-                        <Form.Check.Input type="radio" isValid className=" inputRadioButton" />
-                        <Form.Check.Label className=" lableRadioButton">
-                            {name}
-                        </Form.Check.Label>
-                    </Form.Check>
-                    
-                </div>
-            ))}
-        </Form>
+        <div className="radio-container">
+            <label className="radio-label">
+                <input
+                    type="radio"
+                    value="option1"
+                    checked={selectedOption === 'option1'}
+                    onChange={handleOptionChange}
+                />
+                <span className="custom-radio"></span>
+                Option 1
+            </label>
+            <label className="radio-label">
+                <input
+                    type="radio"
+                    value="option2"
+                    checked={selectedOption === 'option2'}
+                    onChange={handleOptionChange}
+                />
+                <span className="custom-radio"></span>
+                Option 2
+            </label>
+        </div>
     );
 }
 
