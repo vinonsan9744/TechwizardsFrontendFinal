@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import "./../style/LoginPage.css";
+import Button from 'react-bootstrap/Button';
 
 function LoginPage() {
   const [selectedOption, setSelectedOption] = useState('');
